@@ -22,7 +22,7 @@ Methodology:
 ***
 Directory of Files:
 
-All datasets used within the project are generated using the code provided. 
+All datasets used within the project are generated during the simulations in the code provided.
 
 ### 3. Technologies
 ***
