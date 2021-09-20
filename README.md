@@ -9,15 +9,20 @@ README: Simulation-code
 ### 1. General Info
 ***
 
-This a simulation study to look at the impact of different different methods of handling missing data on a prediction model. A complete "true" dataset is simulated, missingness is introduced under MCAR and MAR mechanisms to create an incomplete  dataset and subsequently different methods of handling missing data are applied to the incomplete dataset to generate multiple complete datasets alongside the "true" dataset. A prediction model is fitted to all datasets, and each are compared to the "true" dataset.
+This a simulation study to look at the impact of different methods for handling missing data on a prediction model. 
+
+Methodology:
+- A complete "true" dataset is simulated
+- Missingness is introduced under MCAR and MAR mechanisms to create an incomplete dataset 
+- The different methods of handling missing data are applied to the incomplete dataset to create multiple complete datasets alongside the complete "true" dataset.
+- A prediction model is fitted to all complete datasets and prediction measures are computed to assess model performance
+- Model performance is compared between all complete datasets and the complete "true" dataset to assess the impact of the different methods of handling missing data
 
 ### 2. Data & File Overview
 ***
 Directory of Files:
-	A. Filename: 
-	   Short description: 
-	B. Filename: 
-	   Short description: 
+
+All datasets used within the project are generated using the code provided. 
 
 ### 3. Technologies
 ***
