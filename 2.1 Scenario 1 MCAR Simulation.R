@@ -1,5 +1,9 @@
 ##################################################################################################################
 # Simulation Scenario 1: MCAR
+#
+# **note** takes approximately 13.4 hours to run 
+# instead of m=40 for the last mice, run time is approximately 11 hours for m=30, 15.5 hours for m=50, & 
+# 28.3 hours for m=100 
 ##################################################################################################################
 
 # start time
@@ -250,11 +254,6 @@ end_time <- Sys.time()
 # duration (in minutes) for simulation to run
 duration <- end_time - start_time
 duration
-
-# m=30: 11 hours
-# m=40: 13.4 hours
-# m=50: 15.5 hours
-# m=100: 28.3 hours
 
 ########################################################################################################
 # export complete datasets
