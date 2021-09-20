@@ -2,8 +2,8 @@
 # Simulation Scenario 1: MCAR
 #
 # **note** takes approximately 13.4 hours to run 
-# instead of m=40 for the last mice, run time is approximately 11 hours for m=30, 15.5 hours for m=50, & 
-# 28.3 hours for m=100 
+# instead of m=40 for the last mice, if m is altered to be 30, 50, or 100, then run  time is 
+# approximately 11 hours, 15.5 hours, or 28.3 hours, respectively 
 ##################################################################################################################
 
 # start time
