@@ -4,7 +4,7 @@ README: Simulation-code
 1. General information
 2. Data & File Overview
 3. Technologies
-4. Running the R script:
+4. Running the R code
 
 ### 1. General Info
 ***
