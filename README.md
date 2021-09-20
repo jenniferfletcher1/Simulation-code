@@ -30,7 +30,7 @@ A list of technologies used within the project:
 * R: Version 4.1.0 (2021-05-18)
 * RStudio: Version 1.4.1717
 
-### 4. Running the R script:
+### 4. Running the R script
 ***
 
 Run all code in Rstudio:
