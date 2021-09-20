@@ -33,7 +33,7 @@ A list of technologies used within the project:
 ### 4. Running the R script:
 ***
 
-Run all code in Rstudio
+Run all code in Rstudio:
 
 1. Run file '0 libraries.R': contains libraries required for all code
 2. Run all files starting with "1" (e.g. 1.1, 1.2, etc): contains all functions required for simulation
