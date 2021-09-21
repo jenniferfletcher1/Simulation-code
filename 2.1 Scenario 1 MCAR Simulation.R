@@ -120,7 +120,7 @@ for (i in 1:1000){
   names(dataset_mice)[names(dataset_mice) == "X4_miss"] <- "X4"
   
   # matrix for imputation
-  predictor_matrix <- matrix(c(0,0,1,1,1, 0,0,0,0,0, 0,0,0,0,0, 1,0,1,0,1, 0,0,0,0,0), nrow = 5, ncol = 5, byrow = TRUE)
+  predictor_matrix <- matrix(c(0,1,1,1,1, 0,0,0,0,0, 0,0,0,0,0, 1,1,1,1,1, 0,0,0,0,0), nrow = 5, ncol = 5, byrow = TRUE)
   
   
   ###############################################################
