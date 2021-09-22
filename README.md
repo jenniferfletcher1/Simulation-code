@@ -22,7 +22,17 @@ Methodology:
 ***
 Directory of Files:
 
-All datasets used within the project are generated during the simulations in the code provided.
+Scripts starting with 0: 
+Contain libraries required for running of script.
+
+Scripts starting with 1 (i.e., 1.1, 1.2, etc.): 
+Contain all functions required for running simulation of subsequent scripts.
+
+Scripts starting with 2 (i.e., 2.1, 2.2, etc.): 
+Each script contains code to run the simulation for a specific scenario. At the end of the scripts the datasets generated from the simulation are exported to the working directory. 
+
+Scripts starting with 3 (i.e., 3.1, 3.2, etc.): 
+Each script contains code to run generate the results for a specific scenario. The results contain an average of each prediction measure, parameter estimates of the fitted prediction model, and other relevant information (such as proportion of missingness). At the end of the scripts the results are exported to the working directory. 
 
 ### 3. Technologies
 ***
