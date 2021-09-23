@@ -22,17 +22,22 @@ Methodology:
 ***
 Directory of Files:
 
-* Scripts starting with 0: 
+note: scripts 1 denote scripts begining with 1, e.g. script 1.1, 1.2 etc. 
+
+* Scripts 0 (starting with 0): 
 Contain libraries required for running of script.
 
-* Scripts starting with 1 (i.e., 1.1, 1.2, etc.): 
-Contain all functions required for running simulation of subsequent scripts.
+* Scripts 1 (starting with 1): 
+Contain all functions required for running simulation (simulations are found in scripts 2).
 
-* Scripts starting with 2 (i.e., 2.1, 2.2, etc.): 
+* Scripts 2 (starting with 2): 
 Each script contains code to run the simulation for a specific scenario. At the end of the scripts the datasets generated from the simulation are exported to the working directory. 
 
-* Scripts starting with 3 (i.e., 3.1, 3.2, etc.): 
-Each script contains code to run generate the results for a specific scenario. The results contain an average of each prediction measure, parameter estimates of the fitted prediction model, and other relevant information (such as proportion of missingness). At the end of the scripts the results are exported to the working directory. 
+* Scripts 3 (starting with 3): 
+Contains all functions required for presenting and manipulating results results.
+
+* Scripts 4 (starting with 4): 
+Scripts to generate results for each scenario. 
 
 ### 3. Technologies
 ***
