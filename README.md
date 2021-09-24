@@ -51,6 +51,7 @@ A list of technologies used within the project:
 Run all code in Rstudio:
 
 1. Run file '0 libraries.R': contains libraries required for all code
-2. Run all files starting with "1": runs all functions required for simulation
-3. Run all files starting with "2" (e.g. 2.1, 2.2, etc): runs the simulation for each scenario 
-4. Run all files starting with "3" (e.g. 3.1, 3.2, etc): generates the results
+2. Run all files starting with "1": runs all functions required for simulation - each whole script can be run in one go.
+3. Run all files starting with "2" : there is three files, where each runs the simulation for one scenario. Complete datasets can be exported at the end of the script.
+4. Run all files starting with "3": runs all functions required for generation of results - each whole script can be run in one go.
+5. 4. Run all files starting with "4": there is three files, where each generates results for one scenario.
