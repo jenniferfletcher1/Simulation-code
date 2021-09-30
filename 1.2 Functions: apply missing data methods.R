@@ -25,7 +25,7 @@ mode_imputation <- function(dataset){
   mode_X1 <- mfv(data_CCA_X1$X1)
   
   # impute "missing values" with mode
-  dataset$X1_mode_imp <- as.factor(ifelse(dataset$X1.I == 0, as.numeric(as.character(mode_X1)), as.numeric(as.character(dataset$X1_miss))))
+  dataset$X1_mode_imp <- as.factor(ifelse(dataset$X1.I == 0, as.numeric(as.character(mode_X1)), as.numeric(as.character(dataset$X1))))
   dataset
 }
 
@@ -37,6 +37,6 @@ mean_imputation <- function(dataset){
   mean_X4 <- mean(data_CCA_X4$X4)
   
   # impute "missing values" with mean
-  dataset$X4_mean_imp <- as.numeric(ifelse(dataset$X4.I == 0, as.numeric(mean_X4), as.numeric(dataset$X4_miss)))
+  dataset$X4_mean_imp <- as.numeric(ifelse(dataset$X4.I == 0, as.numeric(mean_X4), as.numeric(dataset$X4)))
   dataset
 }
