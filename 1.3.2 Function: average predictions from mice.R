@@ -1,6 +1,5 @@
 ##############################################################################################
-# generating dataframe of prediction measures & parameter estimates
-# with corresponding standard errors & 95% CI's
+# function to generate average prediction scores across all imputations
 ##############################################################################################
 
 averageing_predictions_mice <- function(predictions_df){
