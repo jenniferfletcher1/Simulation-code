@@ -31,7 +31,7 @@ Contain libraries required for running of script.
 Contain all functions required for running simulation (simulations are found in scripts 2).
 
 * Scripts 2 (starting with 2): 
-Each script contains code to run the simulation for a specific scenario. At the end of the scripts the datasets generated from the simulation are exported to the working directory. 
+Each script contains code to run the simulation for a specific scenario. At the end of the scripts the datasets generated from the simulation can be exported to the working directory, in which the files will contain 1000 rows of results for all 1000 repetitions of the simulation.
 
 * Scripts 3 (starting with 3): 
 Contains all functions required for presenting and manipulating results results.
