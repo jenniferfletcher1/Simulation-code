@@ -261,8 +261,6 @@ duration
 # export complete datasets
 ########################################################################################################
 
-setwd("/Users/jennyfletcher/Desktop/LSHTM/Summer Project/PWV Data/Dataset/Simulation study R code /Scenario 3 complete datasets")
-
 write.csv(x = predictions_df_full, file = "predictions_df_full_MAR3.csv")
 write.csv(x = predictions_df_CCA, file = "predictions_df_CCA_MAR3.csv")
 write.csv(x = predictions_df_mode_mean, file = "predictions_df_mode_mean_MAR3.csv")
