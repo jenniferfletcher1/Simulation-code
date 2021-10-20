@@ -2,23 +2,23 @@
 # import datasets
 ####################################################################################################
 
-# set working directory
-setwd("/Users/jennyfletcher/Desktop/LSHTM/Summer Project/PWV Data/Dataset/Simulation study R code /Simulation corrected/Output 3 MAR")
+# set working directory for import of 1000 predictions generated
+setwd("")
 
 # import: full dataset
-data_full <- read.csv("predictions_df_full_MAR3_2.csv")
+data_full <- read.csv("predictions_df_full_MAR3.csv")
 
 # import: CCA dataset
-data_CCA <- read.csv("predictions_df_CCA_MAR3_2.csv")
+data_CCA <- read.csv("predictions_df_CCA_MAR3.csv")
 
 # import: mean/mode dataset
-data_mode_mean <- read.csv("predictions_df_mode_mean_MAR3_2.csv")
+data_mode_mean <- read.csv("predictions_df_mode_mean_MAR3.csv")
 
 # import: mice1 dataset
-data_mice1 <- read.csv("predictions_df_mice_1_MAR3_2.csv")
+data_mice1 <- read.csv("predictions_df_mice_1_MAR3.csv")
 
 # import: mice10 dataset
-data_mice10 <- read.csv("predictions_df_mice_10_MAR3_2.csv")
+data_mice10 <- read.csv("predictions_df_mice_10_MAR3.csv")
 
 # import: mice40 dataset
 data_mice40 <- read.csv("predictions_df_mice_40_MAR3_2.csv")
@@ -85,7 +85,7 @@ plot_results <- annotate_figure(prediction_measures_plots(dataset = average_resu
                                 top = text_grob("Scenario 3: MAR", face = "bold", size = 14))
 
 # export plot
-pdf(file="plot_results_testing.pdf")
+pdf(file="plot_results.pdf")
 plot_results
 dev.off()
 
