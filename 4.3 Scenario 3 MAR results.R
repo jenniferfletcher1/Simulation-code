@@ -21,7 +21,7 @@ data_mice1 <- read.csv("predictions_df_mice_1_MAR3.csv")
 data_mice10 <- read.csv("predictions_df_mice_10_MAR3.csv")
 
 # import: mice40 dataset
-data_mice40 <- read.csv("predictions_df_mice_40_MAR3_2.csv")
+data_mice40 <- read.csv("predictions_df_mice_40_MAR3.csv")
 
 ########################################################################################################
 # averaging datasets: generates the average of results from all simulations
@@ -85,7 +85,7 @@ plot_results <- annotate_figure(prediction_measures_plots(dataset = average_resu
                                 top = text_grob("Scenario 3: MAR", face = "bold", size = 14))
 
 # export plot
-pdf(file="plot_results.pdf")
+pdf(file="plot_results_MAR3.pdf")
 plot_results
 dev.off()
 
