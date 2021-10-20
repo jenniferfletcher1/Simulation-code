@@ -85,7 +85,7 @@ plot_results <- annotate_figure(prediction_measures_plots(dataset = average_resu
                                 top = text_grob("Scenario 2: MAR", face = "bold", size = 14))
 
 # export plot
-pdf(file="plot_results.pdf")
+pdf(file="plot_results_MAR2.pdf")
 plot_results
 dev.off()
 
