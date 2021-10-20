@@ -13,7 +13,7 @@ This a simulation study to look at the impact of different methods for handling 
 
 Methodology:
 - A complete "true" dataset is simulated
-- Missingness is introduced under to create an incomplete dataset (one dataset under MCAR mechanism and two datasets under MAR mechanism)  
+- Missingness is introduced  to create an incomplete dataset (one dataset under MCAR mechanism and two datasets under MAR mechanism)  
 - The different methods of handling missing data are applied to the incomplete dataset to create multiple complete datasets alongside the complete "true" dataset.
 - A prediction model is fitted to all complete datasets and prediction measures are computed to assess model performance
 - Model performance is compared between all complete datasets and the complete "true" dataset to assess the impact of the different methods of handling missing data with the baseline ("true" dataset)
