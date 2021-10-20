@@ -2,26 +2,26 @@
 # import datasets
 ####################################################################################################
 
-# set working directory
-setwd("/Users/jennyfletcher/Desktop/LSHTM/Summer Project/PWV Data/Dataset/Simulation study R code /Simulation corrected/Output 1 MCAR")
+# set working directory for import of 1000 predictions generated
+setwd("")
 
 # import: full dataset
-data_full <- read.csv("predictions_df_full_MCAR1_2.csv")
+data_full <- read.csv("predictions_df_full_MCAR1.csv")
 
 # import: CCA dataset
-data_CCA <- read.csv("predictions_df_CCA_MCAR1_2.csv")
+data_CCA <- read.csv("predictions_df_CCA_MCAR1.csv")
 
 # import: mean/mode dataset
-data_mode_mean <- read.csv("predictions_df_mode_mean_MCAR1_2.csv")
+data_mode_mean <- read.csv("predictions_df_mode_mean_MCAR1.csv")
 
 # import: mice1 dataset
-data_mice1 <- read.csv("predictions_df_mice_1_MCAR1_2.csv")
+data_mice1 <- read.csv("predictions_df_mice_1_MCAR1.csv")
 
 # import: mice10 dataset
-data_mice10 <- read.csv("predictions_df_mice_10_MCAR1_2.csv")
+data_mice10 <- read.csv("predictions_df_mice_10_MCAR1.csv")
 
 # import: mice40 dataset
-data_mice40 <- read.csv("predictions_df_mice_40_MCAR1_2.csv")
+data_mice40 <- read.csv("predictions_df_mice_40_MCAR1.csv")
 
 ########################################################################################################
 # averaging datasets: generates the average of results from all simulations
@@ -83,11 +83,6 @@ stargazer(data_table,
 # plot
 plot_results <- annotate_figure(prediction_measures_plots(dataset = average_results),
                                 top = text_grob("Scenario 1: MCAR", face = "bold", size = 14))
-
-# export plot
-pdf(file="plot_results_testing.pdf")
-plot_results
-dev.off()
 
 # export plot
 pdf(file="plot_results.pdf")
