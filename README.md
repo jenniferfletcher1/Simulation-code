@@ -54,4 +54,4 @@ Run all code in Rstudio:
 2. Run all files starting with "1": runs all functions required for simulation - each whole script can be run in one go.
 3. Run all files starting with "2" : there is three files, where each runs the simulation for one scenario. Complete datasets can be exported at the end of the script.
 4. Run all files starting with "3": runs all functions required for generation of results - each whole script can be run in one go.
-5. 4. Run all files starting with "4": there is three files, where each generates results for one scenario.
+5. Run all files starting with "4": there is three files, where each generates results (tables, plots) for one scenario.
